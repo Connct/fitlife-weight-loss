@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to lose weight without feeling hungry with these tasty and satisfying recipes!">
+    <title>FitLife</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">
+        <a href="index.html">FitLife Blog</a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#Details"><i class="fa fa-info-circle"></i> Details</a></li>
+        <li><a href="#nutrition-secrets"><i class="fa fa-leaf"></i>Secrets</a></li>
+        <li><a href="#faq"><i class="fa fa-question-circle"></i> FAQ</a></li>
+        <li><a href="index.html"><i class="fa fa-book"></i> Blog</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</nav>
+
+    <header>
+        <div class="container " id="home">
+            <h1>Lose Weight Without Feeling Hungry – Try These Tasty Recipes! 🍽️💪</h1>
+            <p class="subtitle">Discover the delicious meals that help you shed pounds without starving yourself!</p>
+        </div>
+    </header>
+
+   <!-- Featured Image Section with Text beside it -->
+   <div class="dance-images">
+    <div class="dance-image" id="image1">
+        <img src="b-img/wl2a.png" alt="First Image" />
+    </div>
+
+    <div class="dance-image" id="image2">
+        <img src="b-img/wl2b.png" alt="Second Image" />
+    </div>
+
+    <div class="dance-image" id="image3">
+        <img src="b-img/wl2c.png" alt="Third Image" />
+    </div>
+</div>
+
+
+    <section class="intro" id="Details">
+        <div class="container">
+            <p>
+                Looking to shed some pounds without starving yourself? These mouthwatering weight loss recipes will keep you full and satisfied, all while helping you reach your goals! 🌱✨
+            </p>
+            <p>
+                Get ready for easy, delicious meals that support your weight loss journey. 🥗💚  
+                Eating nutrient-dense meals can curb cravings and keep your metabolism high! 🍅🔥
+            </p>
+        </div>
+    </section>
+
+    <section class="foods">
+        <div class="container">
+            <div class="food-item">
+                <h2><i class="fas fa-avocado"></i> Avocado & Quinoa Salad 🥑</h2>
+                <p>
+                    Full of fiber, healthy fats, and protein, this salad keeps you full longer while providing essential nutrients.
+                </p>
+                <p class="fun-fact">
+                    <strong>Did you know?</strong> Avocados contain more potassium than bananas!
+                </p>
+            </div>
+
+            <div class="food-item">
+                <h2><i class="fas fa-fish"></i> Grilled Salmon with Asparagus 🍣</h2>
+                <p>
+                    Packed with omega-3 fatty acids and protein, this meal fuels your metabolism without the calories.
+                </p>
+                <p class="fun-fact">
+                    <strong>Did you know?</strong> Salmon provides healthy fats that aid in fat burning.
+                </p>
+            </div>
+
+            <div class="food-item">
+                <h2><i class="fas fa-pepper-hot"></i> Spicy Veggie Stir-Fry 🌶️</h2>
+                <p>
+                    High in fiber and antioxidants, this stir-fry helps with digestion while boosting metabolism.
+                </p>
+                <p class="fun-fact">
+                    <strong>Did you know?</strong> The chili in this recipe can give your metabolism a temporary boost!
+                </p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="key-takeaways" id="nutrition-secrets">
+        <div class="container">
+            <h2>Key Weight Loss Secrets 🍽️</h2>
+            <div class="summary">
+                <div class="summary-item">
+                    <h3>Avocado & Quinoa Salad 🥑</h3>
+                    <p>Full of fiber, healthy fats, and protein, it keeps you full and satisfied.</p>
+                </div>
+                <div class="summary-item">
+                    <h3>Grilled Salmon with Asparagus 🍣</h3>
+                    <p>Provides protein and omega-3 fats that fuel your metabolism and help burn fat.</p>
+                </div>
+                <div class="summary-item">
+                    <h3>Spicy Veggie Stir-Fry 🌶️</h3>
+                    <p>Rich in fiber and antioxidants, and can increase metabolism temporarily.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- FAQ Section -->
+<div class="faq-section" id="faq">
+    <h2>Frequently Asked Questions ❓</h2>
+    <div class="faq-item">
+        <button class="faq-question">How can these recipes help with weight loss?</button>
+        <div class="faq-answer">
+            <p>These recipes are nutrient-dense, keeping you full longer and providing healthy ingredients that support your metabolism and fat-burning processes.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Are these recipes quick to prepare?</button>
+        <div class="faq-answer">
+            <p>Yes, these meals are simple and quick to prepare, perfect for busy people who want to stay on track with their weight loss goals.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Can I prepare these meals in advance?</button>
+        <div class="faq-answer">
+            <p>Absolutely! Many of these meals can be prepped ahead of time for a hassle-free week of healthy eating.</p>
+        </div>
+    </div>
+</div>
+
+    <section class="reading-progress">
+        <div class="container">
+            <div id="progress-bar"></div>
+        </div>
+    </section>
+
+    <script >
+        
+        // Reading Progress Bar Functionality
+        const progressBar = document.getElementById('progress-bar');
+        
+        window.addEventListener('scroll', () => {
+            const totalHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollPosition = window.scrollY;
+            const progressPercentage = (scrollPosition / totalHeight) * 100;
+            
+            progressBar.style.width = progressPercentage + '%';
+            progressBar.style.display = 'block'; // Make the progress bar visible when scrolling
+        });
+        
+        // JavaScript for the Magic Trick FAQ Reveal Effect
+document.querySelectorAll('.faq-question').forEach(function(question) {
+    question.addEventListener('click', function() {
+        var answer = this.nextElementSibling;
+
+        // If answer is already revealed, close it
+        if (answer.classList.contains('show')) {
+            answer.classList.remove('show');
+        } else {
+            // Hide all answers first
+            document.querySelectorAll('.faq-answer').forEach(function(ans) {
+                ans.classList.remove('show');
+            });
+
+            // Show the clicked answer with "magic" effect
+            answer.classList.add('show');
+            answer.style.transform = 'scale(1)';
+            answer.style.opacity = '1';
+        }
+    });
+});
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
+        
+        </script>
+</body>
+</html>
